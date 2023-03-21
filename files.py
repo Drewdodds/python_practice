@@ -4,7 +4,7 @@
 
 myfile = open('myfile.txt', 'w')
 
-# get info on this files
+# get info on this files (files are objects with properties you can access and see)
 
 print('Name: ', myfile.name)
 print('Is Closed: ', myfile.close)
