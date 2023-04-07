@@ -31,3 +31,5 @@ print(sys.path)
 # If you are performing a common task then most likely someone has already written it.
 # lastly the site packages (3rd party dirs)
 
+# Just know that python has an order of operations as far as where it goes to look for modeules when you import to your current script. 
+# The final is that, if it is not local, you have pip install from the internet.
