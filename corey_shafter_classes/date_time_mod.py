@@ -6,7 +6,7 @@ import datetime
 
 # print(d)
 
-# today = datetime.date.today() # get current date
+today = datetime.date.today() # get current date
 
 # # print(today) # full date
 # # print(today.year)  # year
@@ -18,11 +18,11 @@ import datetime
 
 # # let's take a look at time deltas. Time deltas are usefeul when we are looking at the difference between two dates. 
 
-# tedelta = datetime.timedelta(days=7) 
-# # we want to print out what the date will be one week from now. 
+tedelta = datetime.timedelta(days=30) 
+# we want to print out what the date will be one week from now. 
 
-# print(today + tedelta) #what's the date 1 week from now
-# print(today - tedelta) #what's the date 1 week ago from now
+print(today + tedelta) #what's the date 1 week from now
+print(today - tedelta) #what's the date 1 week ago from now
 
 # # Above we were adding and subtracting a time delta from a date and getting another date as the result. Ex: date2 = date1 + timedelta
 # # If we instead add or subract a date from a date for my date then we'll get a time delta as the result. Ex: timedelta = date1 + date2
@@ -36,15 +36,15 @@ import datetime
 
 # now let's look at datetime.time
 
-t = datetime.time(9, 30, 45, 100000) # here we work with hours, min, seconds, andmicroseconds. does not include year,  month, day.
+# t = datetime.time(9, 30, 45, 100000) # here we work with hours, min, seconds, andmicroseconds. does not include year,  month, day.
 
-print(t)
-print(t.hour) # access diff time elements
+# print(t)
+# print(t.hour) # access diff time elements
 
-# then there is datetime.datetime which will give us access to everything. 
+# # then there is datetime.datetime which will give us access to everything. 
 
-dt = datetime.datetime(2016,7,26,12,30,45,100000)
-print(dt)
-print(dt.date()) # grab date
-print(dt.time()) # grab time
-print(dt.year) # grab individual element like before. 
+# dt = datetime.datetime(2016,7,26,12,30,45,100000)
+# print(dt)
+# print(dt.date()) # grab date
+# print(dt.time()) # grab time
+# print(dt.year) # grab individual element like before. 
