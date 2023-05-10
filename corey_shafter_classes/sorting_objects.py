@@ -66,6 +66,12 @@ e3 = Employee('John', 43, 900000)
 employees = [e1, e2, e3]
 
 # sort them based on a attribute
+def e_sort(emp): # key takes a function that takes each element of the list and returns what you want to sort on.
+    return emp.name
 
-s_employees = sorted(employees)
+s_employees = sorted(employees, key=e_sort) # if you try to sort this without a key it is not going to sort them. 
 
+# so we need to write a custom function which I added between employee list and the s_employee varaiabel above. We then use this function as a parameter in the 
+# sorted function for the key arg. 
+
+print(s_employees)
