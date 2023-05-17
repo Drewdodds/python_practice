@@ -1,6 +1,6 @@
-# Here we b elearning how to create and use classes within python and how object oriented concepts are applied within python. 
+# Here we will be learning how to create and use classes within python and how object oriented concepts are applied within python. 
 # There is a lot to cover so this small series is broken into different parts of the concept. 
-# We'll cover the basics of creating and initiationg classes. We'll learn bout inheritance class and instance variables. 
+# We'll cover the basics of creating and initiationg classes. We'll learn about inheritance class and instance variables. 
 # Static methods and class methods as well as several other topics. 
 
 # In this vid we'll cover creating and initiatiing simple classes. 
@@ -12,9 +12,9 @@
 # When we say "method" we mean a function that is associated with class. 
 
 # Hypothetical scenario we will work with and build upon. Say we had an application for our company and we wanted to represent our employees in our code. 
-# This is agreat use case for a class b/c each individual employee is going to have specific attributes and methods. 
+# This is agreat use case for a class b/c each individual employee is going to have specific attributes and methods associated with it. 
 # Ex: Each employee is going to have a name, email address, pay, etc. It would be nice if we just had a class that we could use as a blue print to create an employee.
-# So that we did not have to do that manually each time from scratch. 
+# so that we did not have to do that manually each time from scratch. 
 
 # Let's create a simple employee class. 
 # There is a diff between a class and an intance of a class
@@ -25,12 +25,12 @@
 
 class Employee: 
     
-    def __init__(self, first, last, pay): # these are instances within the class
+    def __init__(self, first, last, pay): # these are instances within the class. The self attribute is always automatic and first. The attributes after can be whatever you want to create.
         self.first = first
         self.last = last
         self.pay = pay
         self.email = first + '.' + last +'@company.com'
-    def fullname(self): # each method within a class automatically takes the instance as the first argument and we're going to always call that "self".
+    def fullname(self): # Here, we difined a method for this class. Each method within a class automatically takes the instance as the first argument and we're going to always call that "self".
         return '{} {}'.format(self.first, self.last)
 
 emp_1 = Employee('Drew','Dodds',50000)
