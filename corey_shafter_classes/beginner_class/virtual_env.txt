@@ -1,0 +1,27 @@
+Why use virtual environments?
+
+The purpose of  a virtual environment is to have a space where we can intall packags that are specific to a project. 
+
+For example...let's say you have a lot of Django sites that use Django V1...but you want to start using Django V2 on all of your newer projects. 
+
+Well, if you are just using your single global environment, when you update to Django V2 it could break some of the old projects that use the older version. 
+
+So we don't want all of our projects pointing to a single instance of Django. So each project shoul dhave it's own packages separate from each other. 
+
+That is why we use virtual environments. 
+
+To create a virtual environment you can run <python -m venv project_env> and that will create a new dir in your current dir. 
+
+To activateit you can the run <project_env\Scripts\activeate.bat>
+
+The version of python that will be run in the env will be the same one you used to creat the env. 
+
+To deactivate you run <deactivate>
+
+You will NOT want to put any work int he venv dir inside the root dir where you created the virtual env.  You want to be able to toss those if needed without tossing
+any work. 
+
+You also don't want to version control the venv dir
+
+What you would commit is the other work (i.e. requirements.txt) 
+
