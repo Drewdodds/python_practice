@@ -13,3 +13,8 @@
 # Go to terminal the and navigate to the dir where you put that data
 
 # to start it up you just need to say "jupyter notebook"
+
+# What is a dataframe? Rows and columns  - basicall a spread sheet
+
+# each row is an observation and each column is an attribute of that observation. 
+
