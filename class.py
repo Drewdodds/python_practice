@@ -22,3 +22,5 @@ print(drew.name)
 print(drew.greeting())
 
 #test
+d = 1 
+df = 3
