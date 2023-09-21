@@ -2,7 +2,7 @@
 x = 10 
 y = 5
 
-# Comparison Operators (==, !=, >, >, >=, <=) - Used to compare values
+# Comparison Operators (==, !=, >, <, >=, <=) - Used to compare values
 
 # Simple if
 if x > y:

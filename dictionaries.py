@@ -47,5 +47,5 @@ people = [
 
 print(people)
 
-# getting values from a list of dicts
+# getting values from a list of dicts. Remember it is 0 indexed
 print(people[1]['name'])

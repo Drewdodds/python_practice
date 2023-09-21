@@ -1,10 +1,12 @@
 # A List is a collection which is ordered and changable. Allows duplicate members.
 
 # Create list
-
+# two ways to create a list. 
+# fist way below
 numbers = [1,2,3,4,5,]
 fruits = ['Apples', 'Oranges', 'Grapes', 'Pears']
 
+#second way below
 # Use a constructor 
 numbers2 = list((1,2,3,4,5))
 
@@ -12,7 +14,7 @@ numbers2 = list((1,2,3,4,5))
 
 print(fruits[1])
 
-#Get length
+#Get length of the list
 
 print(len(fruits))
 

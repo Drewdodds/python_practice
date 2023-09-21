@@ -1,8 +1,8 @@
 # Loops are used for iterating over a sequence (that is either a list, a tuple, a dict, a set, or a string).
 
-people = ['John', 'Paul', 'Sara', 'Susan']
+people = ['John', 'Paul', 'Sara', 'Susan', 'Drew']
 
-# Simple for loop
+# Here is a simple "for loop"
 for person in people:
     print(f'current person: {person}')
 

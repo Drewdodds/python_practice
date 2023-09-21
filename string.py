@@ -2,13 +2,13 @@
 name = 'Brad'
 age = 37
 
-#Concat
-print('Hello, my name is '+ name + 'and I am ' + str(age))
+#Concatenating strings
+print('Hello, my name is '+ name + ' and I am ' + str(age))
 
 #String formatting
 
 #positional arguments
-print('My name is {name} and I am {age}'.format(name=name, age=age))#if you use this way you have to use format to confomr the data types. Below is better
+print('My name is {name} and I am {age}'.format(name=name, age=age))#if you use this way you have to use format to conform the data types. Below is better
 
 #F-Strings 
 print(f'Hello, my name is {name} and I am {age}')

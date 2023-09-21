@@ -1,7 +1,7 @@
 # A vriable is a container for a vaqlue, which can be of various types
 
 '''
-Tis is multiine comment or docstring (used to define a functuions purpose) an dcan be single or double quotes
+This is multiine comment or docstring (used to define a functuions purpose) an can be single or double quotes
 '''
 
 """

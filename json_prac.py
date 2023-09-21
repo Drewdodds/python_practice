@@ -1,4 +1,4 @@
-# JSON is commonly used with dqata APIS. Here's how we can parse JSON into Python Dictionary
+# JSON is commonly used with data APIS. Here's how we can parse JSON into Python Dictionary
 
 import json
 

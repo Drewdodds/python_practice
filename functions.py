@@ -23,11 +23,11 @@ def getSum(num1, num2):
     total =num1 + num2
     return total
 
-num = getSum(3,4)
+num = getSum(3,4) # here I just created a variable that has the function call with the numbers. I then printed the var below. 
 print(num)
 
 
-# A lambda function is a small anonymous function. 
+# A lambda function is a small anonymous function. It is "undefined"
 # A lambda function can take any number of arguments, but can only have one expression. Very similar to JS arrow functions
 
 getSum2 = lambda num1, num2 : num1 + num2
