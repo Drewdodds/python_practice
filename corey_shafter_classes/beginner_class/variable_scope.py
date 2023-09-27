@@ -4,7 +4,7 @@
 
 # Variable scope determines where our variables can be accessed from within the program and what values those variables hold in different contexts.
 
-# There is a common abbreviation for understanding the croping rules within Python and that abbreviation is "LEGB"
+# There is a common abbreviation for understanding the scoping rules within Python and that abbreviation is "LEGB"
 # Which stands for Local, Enclosing, Global, Built-in.
 
 # Local are vars defines within a function.
@@ -51,7 +51,7 @@ x = 'global x' # The var x here is a global var b/c it is in the main body of ou
 # print(x) # this then prints out the global one both times b/c we told python to do so.
 
 # Sometimnes it can be tempting to learn something new and then overuse it. I wanted to show you the global statement so that you know what it does and how to use it. 
-# but I don't think I've ever had the need to uise this myself and if you find yourself using it often then you are probably doing something wrong. 
+# but I don't think I've ever had the need to use this myself and if you find yourself using it often then you are probably doing something wrong. 
 # Using the local scope of a function make it easier to understand and easier to work with. So you can imagine how difficult it would be to maintain our coude
 # if you use the global statments and had to worry about vars and your functiosn overriding values outside of that function.
 # So with the local scope being self contained it allows us to not have to worry about what is going on outside of the function.

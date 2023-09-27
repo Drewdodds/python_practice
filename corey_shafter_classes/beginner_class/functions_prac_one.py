@@ -53,7 +53,7 @@ print(ex_four('Hi', 'Drew'))
 # or
 print(ex_four('Hi', name = 'Drew'))
 
-# Another method. What the following mehtod allows is for the function to accept an arbitrary number of positional or keyword inputs.
+# Another method. What the following method allows is for the function to accept an arbitrary number of positional or keyword inputs.
 
 def student_info(*args, **kwargs):
     print(args)

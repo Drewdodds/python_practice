@@ -1,5 +1,5 @@
 # The OS module allows us to interact with underlying operating system in several different ways.
-# For example, we can navigate the file system, get file info, look up and change the environement variables, mopve files around, ect.
+# For example, we can navigate the file system, get file info, look up and change the environement variables, move files around, ect.
 import os
 # print out all of the methods avaiable.
 #print(dir(os))

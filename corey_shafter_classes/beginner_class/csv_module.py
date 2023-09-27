@@ -1,5 +1,5 @@
 # We will be looking at how to read, parse, and write csv files. 
-# Csv files standard for comma separated values. They allow us to store tabulated data in a plain text file (which is smaller)
+# Csv files are standard for comma separated values. They allow us to store tabulated data in a plain text file (which is smaller)
 # the data looks like a mess but it's not really meant to be read like that. Just how it is stored.
 # The top line will have the fields and everything after that will be the accociated values.
 # we will work with a test csv file I made in this current dir
@@ -28,7 +28,7 @@ import csv
 #         for line in csv_reader: # for each line in the original we are writing out to the new file each line of the original
 #             csv_writer.writerow(line) # and you can see it created a new file. 
 
-# another way to deal with csv files is using a dicttionary reader and writer
+# another way to deal with csv files is using a dictionary reader and writer
 
 # with open('csv_mod_prac.csv', 'r') as csv_file:
 #     csv_reader = csv.DictReader(csv_file)

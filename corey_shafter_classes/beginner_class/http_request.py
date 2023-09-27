@@ -1,6 +1,6 @@
 # The request library if very popular and it allows us to easily make a http request to get information from webistes. 
 # This is fairly easy to use. We will learn how to get info from website as well as post info, download images, send off info, follow redirects, etc.
-# Let's look at the basics...the request libary is great gor getting info from a site but it's not menbt to parse that info.
+# Let's look at the basics...the request libary is great gor getting info from a site but it's not meant to parse that info.
 # to parse...we will use something like beautiful soup. 
 # you have to install the request library using pip -  "pip install request"
 

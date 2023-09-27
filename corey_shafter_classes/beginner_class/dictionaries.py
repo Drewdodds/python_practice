@@ -35,8 +35,8 @@ print(student)
 age = student.pop('age')
 print(age)
 
-#looping through all the keys and values in the dict
-# how many values are in teh dict?
+# looping through all the keys and values in the dict
+# how many values are in the dict?
 print(len(student))
 print(student.values())
 print(student.items())

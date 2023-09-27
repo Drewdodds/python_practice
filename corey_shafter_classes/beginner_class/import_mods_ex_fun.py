@@ -1,5 +1,5 @@
 # This is how you package differnet files with functions and can import them to other scripts and files to use with your script.
-# Say you create a fancy function that will help you in a scriot, you can save that function and then import it in anothe script.
+# Say you create a fancy function that will help you in a scriot, you can save that function and then import it in another script.
 
 # so here is the example function below
 

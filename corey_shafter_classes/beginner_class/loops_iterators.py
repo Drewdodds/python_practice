@@ -31,7 +31,7 @@ for num in nums:
         print(num, letter)
 
 # there will be times when we just want to go through a loop a certian number of times. There is a built in function called range that is useful for this.
-# Let's say we wanted to run through a lopp 10 times
+# Let's say we wanted to run through a loop 10 times
 
 for i in range(10):
     print(i)
@@ -42,7 +42,7 @@ x = 0
 while x < 10:
     print(x)
     x += 1
-
+# After printing the value of x, this line increments the value of x by 1. The += operator is shorthand for adding a value to a variable. So, x += 1 is equivalent to x = x + 1. 
 # you can also break out of the while loop
 while x < 10:
     if x == 5:

@@ -21,8 +21,8 @@ today = datetime.date.today() # get current date
 tedelta = datetime.timedelta(days=30) 
 # we want to print out what the date will be one week from now. 
 
-print(today + tedelta) #what's the date 1 week from now
-print(today - tedelta) #what's the date 1 week ago from now
+print(today + tedelta) #what's the date 1 month from now
+print(today - tedelta) #what's the date 1 month ago from now
 
 # # Above we were adding and subtracting a time delta from a date and getting another date as the result. Ex: date2 = date1 + timedelta
 # # If we instead add or subract a date from a date for my date then we'll get a time delta as the result. Ex: timedelta = date1 + date2

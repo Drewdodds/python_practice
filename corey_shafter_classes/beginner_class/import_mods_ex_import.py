@@ -22,7 +22,7 @@ print(index) # which equals 1
 # index  = mm.find_index(courses, 'Math')
 
 #btw, when we import a module how does it know where to find this module...since we didn't pass a file path?
-# The way this works is that when we import a module it checks multiple locations. And the locatiosn it checks is within a list called sys.path
+# The way this works is that when we import a module it checks multiple locations. And the location it checks is within a list called sys.path
 import sys
 print(sys.path)
 
@@ -31,5 +31,5 @@ print(sys.path)
 # If you are performing a common task then most likely someone has already written it.
 # lastly the site packages (3rd party dirs)
 
-# Just know that python has an order of operations as far as where it goes to look for modeules when you import to your current script. 
+# Just know that python has an order of operations as far as where it goes to look for modules when you import to your current script. 
 # The final is that, if it is not local, you have pip install from the internet.

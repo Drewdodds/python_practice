@@ -1,4 +1,4 @@
-# lsit and tuples allow us to work with sequential data and sets are unordered collections of vbalues with no duplicates.
+# lsit and tuples allow us to work with sequential data and sets are unordered collections of values with no duplicates.
 # Let's look at lists first
 
 courses = ['History', 'Math', 'Physics', 'CompSci']

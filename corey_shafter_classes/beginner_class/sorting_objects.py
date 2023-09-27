@@ -57,7 +57,7 @@ class Employee():
         def __repr__(self):
             return '({},{},${})'.format(self.name, self.age, self.salary)
 
-# sampel employees
+# sample employees
 e1 = Employee('Carl', 37, 700000)
 e2 = Employee('Sarah', 29, 800000)
 e3 = Employee('John', 43, 900000)
