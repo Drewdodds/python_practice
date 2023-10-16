@@ -1,4 +1,4 @@
-# In this vid we will learn how to use the property decorator. This allows us to give our class attributes getter setter and a leader functionality
+# In this vid we will learn how to use the property/variable decorator. This allows us to give our class attributes getter setter and a leader functionality
 # 
 
 class Employee: 
@@ -7,7 +7,7 @@ class Employee:
         self.first = first
         self.last = last
     
-    @property # we aredefining our email in our class like it's a method but we're able to access it like it an attribute
+    @property # we are defining our email in our class like it's a method but we're able to access it like it an attribute
     def email(self):
         return '{}.{}@email.com'.format(self.first, self.last)
     
@@ -30,5 +30,5 @@ emp_1 = Employee('John', 'Smith')
 
 emp_1.first = 'Jim'
 print(emp_1.first)
-print(emp_1.email) # we aredefining our email in our class like it's a method but we're able to access it like it an attribute
+print(emp_1.email) # we are defining our email in our class like it's a method but we're able to access it like it an attribute
 print(emp_1.fullname()) # you can see here that we are not accessing fullname like an attribute and instead running it as is which is a method.
