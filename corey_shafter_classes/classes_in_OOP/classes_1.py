@@ -12,7 +12,7 @@
 # When we say "method" we mean a function that is associated with class. 
 
 # Hypothetical scenario we will work with and build upon. Say we had an application for our company and we wanted to represent our employees in our code. 
-# This is agreat use case for a class b/c each individual employee is going to have specific attributes and methods associated with it. 
+# This is a great use case for a class b/c each individual employee is going to have specific attributes and methods associated with it. 
 # Ex: Each employee is going to have a name, email address, pay, etc. It would be nice if we just had a class that we could use as a blue print to create an employee.
 # so that we did not have to do that manually each time from scratch. 
 
@@ -22,6 +22,7 @@
 # We'll get deeper into instance varaiables and class variables. In this vid we will talk about instance vars. Instance variables contain data that is
 # unique to each intance. 
 # So to avoid having to set up unique vars per employee manually we use a special init method.
+# For alagorical purposes to help learning....think of a proudct in salsify as an instance and all the properties as instance variables. Each product is it's own instance, with instance variables.
 
 class Employee: 
     
