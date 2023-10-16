@@ -1,10 +1,10 @@
-# In the last vid we learned about the diff between instance variables and clas variables. 
-# in this vid we'll be learning about the diff between regular methods, class methods, and static methods. 
-# As we learned in the 1st vid... regular methods in a class automatically take the 1st instance as the 1st argument.. based on condition we were calling this "self". 
-# How can we change this so that it auto takes the class at the first argument?
+# In the last vid we learned about the diff between instance variables and class variables. 
+# in this vid, we'll be learning about the diff between regular methods, class methods, and static methods. 
+# As we learned in the 1st vid... regular methods in a class automatically take the 1st instance var as the 1st argument.. based on condition we were calling this "self". 
+# How can we change this so that it auto takes the class as the first argument?
 # To do that, we are going to use class methods. We are going to add a "decorator" under the defined methods below. "@classmethod"0
-# Adding this decoratior will alter the method so that it takes in the class first instead of the first instance within the class.
-# The common namming conventioned for the class method is "cls". 
+# Adding this decorator will alter the method so that it takes in the class first instead of the first instance within the class.
+# The common namming convention for the class method is "cls". 
 # So there are intance variables as well as class variables. There are also instance methods as well as class methods. 
 # here we have the class varible called raise_amount where the value is 1.04. 
 # However, we can create a class method that modifies that and sets a new value to it. 
@@ -26,17 +26,17 @@ class Employee:
 
         Employee.num_of_emps += 1 
 
-    def fullname(self): 
+    def fullname(self): # instance method
         return '{} {}'.format(self.first, self.last)
     
-    def apply_raise(self):
+    def apply_raise(self): # instance method
         self.pay = int(self.pay * Employee.raise_amount) 
     
-    @classmethod
+    @classmethod # Class method
     def set_raise_amt(cls, amount):
         cls.raise_amount = amount
 
-    @staticmethod
+    @staticmethod # Class method
     def is_workday(day):
         if day.weekday() == 5 or day.weekday() == 6:
             return False
