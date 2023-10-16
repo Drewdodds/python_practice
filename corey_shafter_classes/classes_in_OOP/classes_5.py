@@ -1,9 +1,9 @@
 # In this file we will learn about special (or Dunder) methods that we can use within our classes. 
-# The special methods allow us to emulate some built-in behavior within Python. It;s also how we implement operator overloading.
+# The special methods allow us to emulate some built-in behavior within Python. It's also how we implement operator overloading.
 # These special methods allow us to change built in behavior. These special methods are often surrounded by double under scroes. 
 # __init__ is one of the most common ones. 
 # Two other common ones are:
-# __repr__ is meant to be an unambigous representation of the object and should be used for debugging and logging and things liek that. 
+# __repr__ is meant to be an unambigous representation of the object and should be used for debugging and logging and things like that. 
 # It's really meant to be seen by other developers. 
 
 # __str__ is meant to be a more readable representation of an object and is meant to be used as a display to the end user. 
